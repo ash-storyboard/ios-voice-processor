@@ -15,7 +15,7 @@ let package = Package(
         .target(
             name: "ios-voice-processor",
             path: "./Package",
-            sources: ["./Package/Sources"],
+            sources: ["./Package/Sources"]
         ),
     ]
 )
