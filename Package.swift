@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "ios-voice-processor-base",
+    platforms: [
+        .iOS(.v12)
+    ],
     products: [
         .library(
             name: "ios-voice-processor",
@@ -19,7 +22,7 @@ let package = Package(
         .target(
             name: "ios-voice-processor",
             path: "ios-voice-processor",
-            sources: ["./ios-voice-processor/"]
+            sources: ["Sources"]
         ),
     ]
 )
