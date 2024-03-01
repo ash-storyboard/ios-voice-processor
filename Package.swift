@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ios-voice-processor-base",
+    name: "ios-voice-processor",
     products: [
     ],
     dependencies: [
@@ -14,7 +14,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "ios-voice-processor",
-            sources: "./Package/"
+            path: "./Package/Sources"
         ),
     ]
 )
